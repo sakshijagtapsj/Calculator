@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Satara</title>
+    <link rel="stylesheet" href="satara.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tribute to Satara</h1>
+        </header>
+        <section>
+            <img src="https://i.pinimg.com/originals/57/25/dd/5725dd0e3545f346b3f845f810d6610c.jpg" alt="Satara Image" >
+            <p>
+                Satara is a beautiful city located in the western Indian state of Maharashtra. It is known for its rich history, scenic landscapes, and cultural heritage.
+            </p>
+        </section>
+        <section>
+            <h2>Attractions</h2>
+            <ul>
+                <li>Kaas Plateau - Famous for its colorful wildflowers.</li>
+                <li>Satara Fort - A historic fort with panoramic views.</li>
+                <li>Thoseghar Waterfalls - A picturesque natural beauty spot.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>History</h2>
+            <p>
+                Satara has a significant historical background, with connections to the Maratha Empire. The city has witnessed various historical events and played a crucial role in the formation of Maharashtra.
+            </p>
+        </section>
+        <footer>
+            <p>Explore more about Satara on <a href="https://www.satara.gov.in/">Satara Official Website</a></p>
+        </footer>
+    </div>
+</body>
+</html>
