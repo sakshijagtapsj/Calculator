@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secured Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Secured Page</h2>
+        <p>Welcome, <span id="loggedInUser"></span>! You have successfully logged in.</p>
+        <a href="#" onclick="logout()">Logout</a>
+    </div>
+
+    <script src="login.js"></script>
+    <script>
+        // Retrieve username from local storage and display on the secured page
+        var username = localStorage.getItem('username');
+        document.getElementById('loggedInUser').innerText = username;
+    </script>
+</body>
+</html>
